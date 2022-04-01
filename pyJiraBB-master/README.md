@@ -31,8 +31,3 @@ This is an assignment for learning JIRA, Bitbucket and using RestAPI with Python
 * Set variables in "config.py" file first
 * Use as "python pyJiraBB.py BR 'To Do'"
 
-### Important Notes
-
-* If you use Python 2.x, then change print statements on 29, 49, 54, 56, 59, 66 and 68th lines.
-* You should change customfields IDs on 38 and 39th lines according to your customfields' IDs.
-* You can add "print(issue.fields.__dict__)" line before them. Then you can see customfields.(There are two underlines before and after dict)

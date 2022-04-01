@@ -10,7 +10,7 @@ from config import *
 if __name__ == "__main__":
     args = sys.argv
     if len(args) != 3:
-        print("ERROR : Use as JiraBitBucket.py PK issueStatus ")
+        print("ERROR : Use as pyJiraBB.py PK issueStatus ")
         exit()
     pk = args[1]
     status = args[2]
